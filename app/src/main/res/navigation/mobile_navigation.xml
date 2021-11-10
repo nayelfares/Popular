@@ -7,8 +7,8 @@
 
     <fragment
         android:id="@+id/most_viewed"
-        android:name="com.articles.popular.ui.most_viewed.MostViewedFragment"
-        android:label="@string/menu_most_viewed"
+        android:name="com.articles.popular.ui.MostViewedFragment"
+        android:label="@string/ny_times_most_popular"
         tools:layout="@layout/fragment_most_viewed" />
 
 </navigation>

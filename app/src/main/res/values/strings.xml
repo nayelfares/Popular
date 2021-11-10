@@ -8,4 +8,6 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_most_viewed">Most Viewed</string>
+    <string name="ny_times_most_popular">NY Times Most Popular</string>
+    <string name="icon">icon</string>
 </resources>

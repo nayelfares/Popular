@@ -1,4 +1,4 @@
-package com.articles.popular.ui.most_viewed
+package com.articles.popular.vm
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
