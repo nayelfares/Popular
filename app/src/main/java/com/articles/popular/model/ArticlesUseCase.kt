@@ -11,17 +11,6 @@ class ArticlesUseCase @Inject constructor(
     private val articlesApi: ArticlesApi
 ) {
 
-//    suspend operator fun invoke(section:String,period:Int): DataState<MostViewsApiData>? {
-//        val result :Any
-//        try{
-//            result= articlesApi.getMostViewedArticles(section,period)
-//        }catch (e:Exception){
-//            Log.e("Exception",e.toString())
-//            return null
-//        }
-//        return null
-//    }
-
     suspend operator fun invoke(section:String,period:Int): Flow<DataState<MostViewsApiData>> = flow {
         emit(DataState.Loading)
         try {

@@ -18,17 +18,18 @@ class MostViewedViewModel  @Inject constructor(
     val articlesUseCase: ArticlesUseCase
 ) : ViewModel() {
 
-    private val _viewState = MutableLiveData<DataState<MostViewsApiData>>()
-    val viewState: LiveData<DataState<MostViewsApiData>>
-        get() = _viewState
+    private val _articlesState = MutableLiveData<DataState<MostViewsApiData>>()
+    val articlesState: LiveData<DataState<MostViewsApiData>>
+        get() = _articlesState
 
+    val searchText = MutableLiveData<String>()
 
 
     fun getMostViewed(section:String,period:Int) = viewModelScope.launch {
 
         articlesUseCase(section, period)
                 .onEach { dataState ->
-                    _viewState.value = dataState
+                    _articlesState.value = dataState
                 }.launchIn(viewModelScope)
 
     }
