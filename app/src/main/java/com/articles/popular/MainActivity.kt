@@ -12,10 +12,11 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
 import com.articles.popular.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
-import android.util.DisplayMetrics
 import androidx.appcompat.widget.SearchView
 import androidx.lifecycle.ViewModelProvider
 import com.articles.popular.vm.MostViewedViewModel
+import android.view.MenuItem
+import android.widget.Toast
 
 
 @AndroidEntryPoint
@@ -87,5 +88,16 @@ class MainActivity : AppCompatActivity() {
             }
 
         })
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        // Handle item selection
+        return when (item.itemId) {
+            R.id.action_settings -> {
+                Toast.makeText(this,"App showing most viewed aticles in newyourkk times website",Toast.LENGTH_LONG).show()
+                true
+            }
+            else -> super.onOptionsItemSelected(item)
+        }
     }
 }
