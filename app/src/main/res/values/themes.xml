@@ -22,4 +22,7 @@
     <style name="Theme.Popular.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Popular.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="FragmentScenarioEmptyFragmentActivityTheme" parent="android:Theme.WithActionBar">
+        <item name="android:windowIsFloating">false</item>
+    </style>
 </resources>
