@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/ic_calender.xml" value="0.25416666666666665" />
+        <entry key="app/src/main/res/drawable/ic_most_viewed.xml" value="0.22592592592592592" />
         <entry key="app/src/main/res/drawable/ic_right_arrow.xml" value="0.25416666666666665" />
         <entry key="app/src/main/res/drawable/side_nav_bar.xml" value="0.25416666666666665" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1503623188405797" />

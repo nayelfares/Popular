@@ -1,0 +1,71 @@
+{
+    "status": "OK",
+    "copyright": "Copyright (c) 2021 The New York Times Company.  All Rights Reserved.",
+    "num_results": 20,
+    "results": [
+        {
+            "uri": "nyt://article/0a820161-3038-5e3e-9a14-5939a00daf23",
+            "url": "https://www.nytimes.com/2021/11/08/us/tiktok-hand-signal-abduction.html",
+            "id": 100000008066487,
+            "asset_id": 100000008066487,
+            "source": "New York Times",
+            "published_date": "2021-11-08",
+            "updated": "2021-11-10 09:36:48",
+            "section": "U.S.",
+            "subsection": "",
+            "nytdsection": "u.s.",
+            "adx_keywords": "Missing Persons;Rescues;Social Media;Sign Language;Brick, James Herbert;TikTok (ByteDance);Kentucky;Asheville (NC)",
+            "column": null,
+            "byline": "By Daniel Victor and Eduardo Medina",
+            "type": "Article",
+            "title": "Missing Girl Is Rescued After Using Hand Signal From TikTok",
+            "abstract": "The girl flashed the hand signal from a car on a Kentucky interstate, the authorities said. It was created as a way for people to indicate that they are at risk of abuse and need help.",
+            "des_facet": [
+                "Missing Persons",
+                "Rescues",
+                "Social Media",
+                "Sign Language"
+            ],
+            "org_facet": [
+                "TikTok (ByteDance)"
+            ],
+            "per_facet": [
+                "Brick, James Herbert"
+            ],
+            "geo_facet": [
+                "Kentucky",
+                "Asheville (NC)"
+            ],
+            "media": [
+                {
+                    "type": "image",
+                    "subtype": "photo",
+                    "caption": "",
+                    "copyright": "Canadian Women's Foundation",
+                    "approved_for_syndication": 1,
+                    "media-metadata": [
+                        {
+                            "url": "https://static01.nyt.com/images/2021/12/08/multimedia/08xp-rescue-3/08xp-rescue-3-thumbStandard.png",
+                            "format": "Standard Thumbnail",
+                            "height": 75,
+                            "width": 75
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/12/08/multimedia/08xp-rescue-3/08xp-rescue-3-mediumThreeByTwo210.png",
+                            "format": "mediumThreeByTwo210",
+                            "height": 140,
+                            "width": 210
+                        },
+                        {
+                            "url": "https://static01.nyt.com/images/2021/12/08/multimedia/08xp-rescue-3/08xp-rescue-3-mediumThreeByTwo440.png",
+                            "format": "mediumThreeByTwo440",
+                            "height": 293,
+                            "width": 440
+                        }
+                    ]
+                }
+            ],
+            "eta_id": 0
+        }
+]
+}
